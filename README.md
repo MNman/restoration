@@ -1,5 +1,5 @@
 # restoration
-restoration 可作参考
+restoration 可作参考实现思路。
 
 0.0.1 测试nav或tabbar作为root
 
