@@ -45,9 +45,13 @@
 }
 
 + (nullable UIViewController *) viewControllerWithRestorationIdentifierPath:(NSArray<NSString *> *)identifierComponents coder:(NSCoder *)coder {
-    XMViewController * tab = [[XMViewController alloc]init];
-    ((AppDelegate *)([UIApplication sharedApplication].delegate)).windows.rootViewController = tab;
-    return tab;
+    XMViewController * nav = [[XMViewController alloc]init];
+    UIViewController * rootVC = ((AppDelegate *)([UIApplication sharedApplication].delegate)).windows.rootViewController;
+    if ([rootVC isKindOfClass:[UITabBarController class]]) {
+        UITabBarController * tab =  rootVC;
+        [tab addChildViewController:nav];
+    }
+    return nav;
 }
 - (void)decodeRestorableStateWithCoder:(NSCoder *)coder {
     [super decodeRestorableStateWithCoder:coder];

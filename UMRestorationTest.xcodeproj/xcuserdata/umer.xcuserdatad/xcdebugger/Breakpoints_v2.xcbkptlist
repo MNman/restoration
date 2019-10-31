@@ -14,8 +14,8 @@
             filePath = "UMRestorationTest/ViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "61"
-            endingLineNumber = "61"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
             landmarkName = "-encodeRestorableStateWithCoder:"
             landmarkType = "7">
          </BreakpointContent>
@@ -30,8 +30,8 @@
             filePath = "UMRestorationTest/AppDelegate.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
             landmarkName = "-application:shouldRestoreApplicationState:"
             landmarkType = "7">
          </BreakpointContent>
@@ -46,8 +46,8 @@
             filePath = "UMRestorationTest/AppDelegate.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
             landmarkName = "-application:shouldSaveApplicationState:"
             landmarkType = "7">
          </BreakpointContent>
@@ -89,8 +89,8 @@
             filePath = "UMRestorationTest/ViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
             landmarkName = "-decodeRestorableStateWithCoder:"
             landmarkType = "7">
          </BreakpointContent>
@@ -105,8 +105,8 @@
             filePath = "UMRestorationTest/ViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
             landmarkName = "-decodeRestorableStateWithCoder:"
             landmarkType = "7">
          </BreakpointContent>
@@ -249,8 +249,8 @@
             filePath = "UMRestorationTest/AppDelegate.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
             landmarkName = "-application:viewControllerWithRestorationIdentifierPath:coder:"
             landmarkType = "7">
          </BreakpointContent>
@@ -265,8 +265,8 @@
             filePath = "UMRestorationTest/AppDelegate.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
             landmarkName = "-application:viewControllerWithRestorationIdentifierPath:coder:"
             landmarkType = "7">
          </BreakpointContent>
@@ -301,22 +301,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "2792D7C4-A3FA-4E05-B99A-ABE369DB3F32"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "UMRestorationTest/AppDelegate.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
-            landmarkName = "-application:didFinishLaunchingWithOptions:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "7944BDF9-CDCF-4783-9C7F-2B68E8424AC4"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -324,8 +308,8 @@
             filePath = "UMRestorationTest/AppDelegate.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
             landmarkName = "-application:didFinishLaunchingWithOptions:"
             landmarkType = "7">
          </BreakpointContent>

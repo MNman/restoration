@@ -45,11 +45,6 @@
 
 + (nullable UIViewController *) viewControllerWithRestorationIdentifierPath:(NSArray<NSString *> *)identifierComponents coder:(NSCoder *)coder {
     ViewController * vc = [[ViewController alloc]init];
-    UIViewController * rootVC = ((AppDelegate *)([UIApplication sharedApplication].delegate)).windows.rootViewController;
-    if ([rootVC isKindOfClass:[UITabBarController class]]) {
-        UITabBarController * tab =  rootVC;
-        [tab addChildViewController:vc];
-    }
     return vc;
 }
 - (void)decodeRestorableStateWithCoder:(NSCoder *)coder {

@@ -22,11 +22,12 @@
 }
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    XMViewController * tabbar;
     if (!self.windows.rootViewController) {
+        TBViewController * tab = [[TBViewController alloc]init];
         ViewController * vc = [[ViewController alloc]init];
-        tabbar = [[XMViewController alloc]initWithRootViewController:vc];
-        self.windows.rootViewController = tabbar;
+        XMViewController * nav = [[XMViewController alloc]initWithRootViewController:vc];
+        [tab addChildViewController:nav];
+        self.windows.rootViewController = tab;
     }
     [self.windows makeKeyAndVisible];
     
